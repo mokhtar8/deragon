@@ -1,0 +1,62 @@
+.container {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    border: solid 20px #3f4a5a;
+    border-radius: 30px;
+
+}
+
+.imagepok {
+    width: 24%;
+    margin-left: 14%;
+    padding: 20%;
+}
+
+.textderagon {
+    -webkit-text-stroke: 0.45px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 9px;
+    color: #788290;
+    font-weight: 600;
+    font-size: x-large;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+
+        font-family: Josefin sans-serif;
+        background-color: hsl(0, 0%, 98%);
+        border: solid 31px #3f4a5a;
+        ;
+        border-radius: 40px;
+        vertical-align: 0%;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .imagepok {
+        width: 26%;
+        margin-left: 27%;
+        padding: 8%;
+
+    }
+
+    .textderagon {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 9px;
+        color: #4B5563;
+        font-size: 46px;
+        font-weight: 800;
+        -webkit-text-stroke: 0.45px;
+    }
+
+}
