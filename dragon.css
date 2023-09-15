@@ -1,23 +1,39 @@
-.garden{
-    padding:50px 200px 50px 200px;
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
+    height: 554px;
+    width: 469px;
+    padding-top: 100px;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#inputnumber{
+    margin: 10px;
 }
 
 .container {
+    width: 252px;
+    height: 229px;
     font-family: 'Josefin Sans', sans-serif;
     background-color: hsl(0, 0%, 98%);
-    border: solid 10px #3f4a5a;
-    border-radius: 15px;
+    border: solid 14px #3f4a5a;
+    border-radius: 25px
 
 }
 
 .imagepok {
-    width: 24%;
+    width: 31%;
     margin-left: 14%;
     padding: 20%;
 }
 
 .textderagon {
-    display: flex;
+        display: flex;
     justify-content: center;
     padding-bottom: 9px;
     color: #788290;
@@ -26,40 +42,51 @@
 
 }
 
-a {
-    text-decoration: none;
-}
+
 
 @media screen and (min-width: 1440px) {
-    .container {
-
-        font-family: Josefin sans-serif;
-        background-color: hsl(0, 0%, 98%);
-        border: solid 31px #3f4a5a;
-        ;
-        border-radius: 40px;
-        vertical-align: 0%;
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    .imagepok {
-        width: 26%;
-        margin-left: 27%;
-        padding: 8%;
-
-    }
-
-    .textderagon {
+  
+    body{
+        height: 1030px;
+        width: 511px;
+        padding-top: 100px;
+        background-color: black;
+        margin: auto;
         display: flex;
         justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    
+    #inputnumber{
+        margin: 10px;
+    }
+    
+
+    .container {
+        width: 398px;
+        height: 386px;    
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: hsl(0, 0%, 98%);
+        border: solid 24px #3f4a5a;
+        border-radius: 37px;
+    
+    }
+    
+    .imagepok {
+        width: 31%;
+        margin-left: 14%;
+        padding: 20%;
+    }
+    
+    .textderagon {
+            display: flex;
+        justify-content: center;
         padding-bottom: 9px;
-        color: #4B5563;
-        font-size: 46px;
-        font-weight: 800;
-        -webkit-text-stroke: 0.45px;
+        color: #788290;
+        font-weight: 600;
+        font-size: 43px;
+    
     }
 
 }

@@ -1,9 +1,16 @@
 body {
-    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+.container{
+        font-family: 'Josefin Sans', sans-serif;
     background-color: hsl(0, 0%, 92%);
     border: solid 20px #3f4a5a;
     border-radius: 30px;
     -webkit-text-stroke: 0.45px;
+    margin-top: 74px;
 }
 
 .deraonimage {
@@ -149,7 +156,11 @@ body {
 @media screen and (min-width: 1440px) {
 
     body {
-        font-family: 'Josefin Sans', sans-serif;
+
+    }
+    
+    .container{
+            font-family: 'Josefin Sans', sans-serif;
         background-color: hsl(0, 0%, 92%);
         border: solid 20px #3f4a5a;
         border-radius: 30px;
