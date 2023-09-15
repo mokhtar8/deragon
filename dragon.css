@@ -1,8 +1,12 @@
+.garden{
+    padding:50px 200px 50px 200px;
+}
+
 .container {
     font-family: 'Josefin Sans', sans-serif;
     background-color: hsl(0, 0%, 98%);
-    border: solid 20px #3f4a5a;
-    border-radius: 30px;
+    border: solid 10px #3f4a5a;
+    border-radius: 15px;
 
 }
 
@@ -13,13 +17,12 @@
 }
 
 .textderagon {
-    -webkit-text-stroke: 0.45px;
     display: flex;
     justify-content: center;
     padding-bottom: 9px;
     color: #788290;
     font-weight: 600;
-    font-size: x-large;
+    
 
 }
 
