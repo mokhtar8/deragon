@@ -1,21 +1,27 @@
-function getdata() {
+  var img =document.getElementById("pokemonimage");
 
-  const numinput = document.getElementById("inputnumber");
-   const imagepokemon = document.getElementById("pokemonimage");
-   const textpok = document.getElementById("text");
-   fetch(`https://pokeapi.co/api/v2/pokemon-form`)
-     .then(res => res.json())
-     .then(data => {
-       console.log(data)
- 
+function calll (){
+
+var number = document.getElementById('inputnumber');
+var numbers = number.value;
+
+
+    fetch (`https://pokeapi.co/api/v2/pokemon/${numbers}`)
+      .then(response => response.json())
+      .then(data => {  console.log(data)
+        number.data;
+        img.src =data.sprites.front_default;
+        document.getElementById("text").innerHTML = data.name;
+      })
+      .catch(error => console.log(error));
       
-       
-       
-       textpok.innerHTML = response.data.name;
-       imagepokemon.innerHTML = response.data.sprites.front_default
- 
-     })
-     .catch(error => console.log(error))
- 
- }
- getdata();
+      if (numbers < 1 || numbers > 20) {
+        alert("عدد شما باید بین 1 تا 20 باشد");
+      number.value = '';
+    }
+   
+      }
+
+   
+
+

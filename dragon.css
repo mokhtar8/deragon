@@ -1,7 +1,7 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
     overflow: hidden;
-    height: 554px;
+    height: 367px;
     width: 469px;
     padding-top: 100px;
     background-color: black;
@@ -13,7 +13,12 @@ body{
 }
 
 #inputnumber{
+    width: 195px;
     margin: 10px;
+    height: 26px;
+    border: #698dc4 4px solid;
+    border-radius: 17px;
+    
 }
 
 .container {
@@ -47,8 +52,8 @@ body{
 @media screen and (min-width: 1440px) {
   
     body{
-        height: 1030px;
-        width: 511px;
+        width: 541px;
+        height: 491px;
         padding-top: 100px;
         background-color: black;
         margin: auto;
@@ -59,7 +64,11 @@ body{
     }
     
     #inputnumber{
-        margin: 10px;
+        border: #698dc4 10px solid;
+        border-radius: 10px;
+        margin: 28px;
+        width: 288px;
+        height: 64px;
     }
     
 
@@ -69,7 +78,7 @@ body{
         font-family: 'Josefin Sans', sans-serif;
         background-color: hsl(0, 0%, 98%);
         border: solid 24px #3f4a5a;
-        border-radius: 37px;
+        border-radius: 46px;
     
     }
     
