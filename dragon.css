@@ -1,101 +1,211 @@
 body{
-    font-family: 'Josefin Sans', sans-serif;
-    overflow: hidden;
-    height: 367px;
-    width: 469px;
-    padding-top: 100px;
-    background-color: black;
-    margin: auto;
+    height: 454px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
+    background-color: black;
 }
 
 #inputnumber{
     width: 195px;
-    margin: 10px;
+    margin-left: 40px;
+    margin-top: 79px;
     height: 26px;
     border: #698dc4 4px solid;
     border-radius: 17px;
     
 }
 
-.container {
-    width: 252px;
-    height: 229px;
+
+.containerr {
+    width: 261px;
+    display: flex;
+    height: 251px;
     font-family: 'Josefin Sans', sans-serif;
     background-color: hsl(0, 0%, 98%);
     border: solid 14px #3f4a5a;
-    border-radius: 25px
-
+    border-radius: 25px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction:column;
+    margin-top: 10px;
 }
 
 .imagepok {
-    width: 31%;
-    margin-left: 14%;
-    padding: 20%;
+    width:  51%;
 }
 
 .textderagon {
-        display: flex;
+    margin: 0px;
+    display: flex;
+    padding-top: 51px;
     justify-content: center;
-    padding-bottom: 9px;
-    color: #788290;
-    font-weight: 600;
-    
-
 }
 
 
+#mylink{
+    text-decoration: none;
+    color: #303741;
+}
 
-@media screen and (min-width: 1440px) {
-  
-    body{
-        width: 541px;
-        height: 491px;
-        padding-top: 100px;
-        background-color: black;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        flex-wrap: wrap;
-    }
-    
-    #inputnumber{
-        border: #698dc4 10px solid;
-        border-radius: 10px;
-        margin: 28px;
-        width: 288px;
-        height: 64px;
-    }
-    
 
-    .container {
-        width: 398px;
-        height: 386px;    
-        font-family: 'Josefin Sans', sans-serif;
-        background-color: hsl(0, 0%, 98%);
-        border: solid 24px #3f4a5a;
-        border-radius: 46px;
-    
-    }
-    
-    .imagepok {
-        width: 31%;
-        margin-left: 14%;
-        padding: 20%;
-    }
-    
-    .textderagon {
-            display: flex;
-        justify-content: center;
-        padding-bottom: 9px;
-        color: #788290;
-        font-weight: 600;
-        font-size: 43px;
-    
-    }
+/*style 222*/
+
+
+
+
+
+.container {
+    display: none;
+    width:264px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: hsl(0, 0%, 92%);
+    border: solid 18px #3f4a5a;
+    border-radius: 31px;
+    -webkit-text-stroke: 0.45px;
+    margin-top: 98px;
+    margin-left: 46px;
+}
+
+
+.deraonimage {
+    width: 261px;
+    border-radius: 8px;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    background-color: #3f4a5a;
+    color: white;
+    position: relative;
+    width: 26px;
+    top: -223px;
+    left: 207px;
+    padding: 7px;
+    border-radius: 340px;
+    z-index: 5;
+}
+
+
+.father {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.textbulb {
+    color: #303741;
+    font-size: 24px;
+}
+
+.textslawo {
+    display: flex;
+    padding-right: 33px;
+   
+}
+
+
+.gras {
+    padding-top: 6px;
+    padding-left: 13px;
+}
+
+
+.grastext {
+    background-color: #3f4a5a;
+    color: white;
+    padding: 5px;
+    border-radius: 27px;
+    text-align: center;
+    font-weight: 600;
+   
+}
+
+.seedtext {
+    margin-top: 6px;
+    padding-right: 88px;
+    color: #969ca5;
+    font-weight: 600;
+}
+
+
+.callectiondiv {
+    display: flex;
+    margin-top: 5px;
+    padding-left: 8px;
+    margin-right:37px;
+}
+
+.classfornumber {
+    font-weight: 600;
+    color: #53575e;
+
+}
+
+.hptex {
+    display: flex;
+    background-color: white;
+    padding: 4px;
+    border-radius: 16%;
+    color: #596371;
+}
+
+.texCP {
+    display: flex;
+    background-color: white;
+    padding: 4px;
+    margin-left: 5px;
+    border-radius: 16%;
+    color: #596371;
+}
+
+.WWtex {
+    display: flex;
+    background-color: white;
+    padding: 4px;
+    margin-left: 5px;
+    border-radius: 16%;
+    color: #596371;
+}
+
+
+.iconcoll {
+    display: flex;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 10%;
+}
+
+.clwater {
+    display: flex;
+    background-color: white;
+    padding: 4px;
+    border-radius: 16%;
+}
+
+.clelectric {
+    display: flex;
+    background-color: white;
+    padding: 4px;
+    margin-left: 5px;
+    border-radius: 16%;
+}
+
+.clfire {
+    display: flex;
+    background-color: white;
+    padding: 4px;
+    margin-left: 5px;
+    border-radius: 16%;
+}
+
+.threetext {
+    font-weight: 600;
+    margin-left: 2px;
+    color: #53575e;
 
 }
