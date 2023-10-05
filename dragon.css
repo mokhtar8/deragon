@@ -10,15 +10,14 @@ body{
 #inputnumber{
     width: 195px;
     margin-left: 40px;
-    margin-top: 79px;
+    margin-top: 129px;
     height: 26px;
     border: #698dc4 4px solid;
     border-radius: 17px;
     
 }
 
-
-.containerr {
+.container {
     width: 261px;
     display: flex;
     height: 251px;
@@ -33,7 +32,7 @@ body{
     margin-top: 10px;
 }
 
-.imagepok {
+#pokemonimage {
     width:  51%;
 }
 
@@ -44,20 +43,14 @@ body{
     justify-content: center;
 }
 
-
 #mylink{
     text-decoration: none;
     color: #303741;
 }
 
-
 /*style 222*/
 
-
-
-
-
-.container {
+#bodychanger {
     display: none;
     width:264px;
     font-family: 'Josefin Sans', sans-serif;
@@ -69,13 +62,12 @@ body{
     margin-left: 46px;
 }
 
-
-.deraonimage {
+#deraonimage2 {
     width: 261px;
     border-radius: 8px;
 }
 
-.number {
+#number {
     display: flex;
     justify-content: center;
     background-color: #3f4a5a;
@@ -89,15 +81,13 @@ body{
     z-index: 5;
 }
 
-
 .father {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
-.textbulb {
+#textbulb {
     color: #303741;
     font-size: 24px;
 }
@@ -105,15 +95,12 @@ body{
 .textslawo {
     display: flex;
     padding-right: 33px;
-   
 }
-
 
 .gras {
     padding-top: 6px;
     padding-left: 13px;
 }
-
 
 .grastext {
     background-color: #3f4a5a;
@@ -122,7 +109,6 @@ body{
     border-radius: 27px;
     text-align: center;
     font-weight: 600;
-   
 }
 
 .seedtext {
@@ -132,18 +118,18 @@ body{
     font-weight: 600;
 }
 
-
 .callectiondiv {
     display: flex;
     margin-top: 5px;
     padding-left: 8px;
     margin-right:37px;
+    width: 183px;
 }
 
 .classfornumber {
     font-weight: 600;
     color: #53575e;
-
+    padding-left: 5px;
 }
 
 .hptex {
@@ -171,7 +157,6 @@ body{
     border-radius: 16%;
     color: #596371;
 }
-
 
 .iconcoll {
     display: flex;
@@ -207,5 +192,26 @@ body{
     font-weight: 600;
     margin-left: 2px;
     color: #53575e;
+}
 
+
+
+
+@media screen and (max-width:450px){
+    body{
+    display: block;
+    margin-right: -131px;
+    }
+
+    #inputnumber{
+        margin-top: 7px;
+        margin-left: 26%;
+    }
+    .container{
+        margin-left:  18%;
+    }
+    #bodychanger{
+        margin-top: 16px;
+        margin-left: 17%
+    }
 }
